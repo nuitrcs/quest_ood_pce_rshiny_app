@@ -1,0 +1,11 @@
+---
+name: RShiny Clinical Data App
+icon: fa://desktop
+category: Interactive Apps
+subcategory: Servers
+role: batch_connect
+description: |
+  This app will launch the [RShiny Clinical Data App] GUI on the [Quest cluster].
+
+  [RShiny Clinical Data App]: https://github.com/fossw/Clinical_Data_App
+  [Quest cluster]: https://www.it.northwestern.edu/departments/it-services-support/research/computing/quest/index.html

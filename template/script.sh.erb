@@ -1,0 +1,5 @@
+#!/usr/bin/env bash 
+  
+# Set working directory
+cd "${HOME}"
+R -e "shiny::runApp('/Clinical_Data_App/ClinDataGen.R', port = $port)"
