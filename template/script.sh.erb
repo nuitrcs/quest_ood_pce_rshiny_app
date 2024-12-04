@@ -2,4 +2,4 @@
   
 # Set working directory
 cd "${HOME}"
-R -e "shiny::runApp('/Clinical_Data_App/ClinDataGen.R', port = $port)"
+R_LIBS_USER="''" R -e "shiny::runApp('/Clinical_Data_App/ClinDataGen.R', port = $port, host = \"0.0.0.0\")"
